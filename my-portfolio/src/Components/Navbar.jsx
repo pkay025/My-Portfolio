@@ -59,7 +59,7 @@ const Navbar = () => {
               <ul className="flex flex-col gap-2 px-6 py-4 text-lg">
                 {NavbarMenu().map((item) => (
                   <li key={item.id}>
-                    <a href={item.link} className="block py-2 px-4 hover:bg-cyan-50 rounded" onClick={() => setIsMenuOpen(false)}>{item.title}</a>
+                    <a href={item.link} className="block py-2 rounded text-center" onClick={() => setIsMenuOpen(false)}>{item.title}</a>
                   </li>
                 ))}
               </ul>
