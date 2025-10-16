@@ -9,7 +9,7 @@ const HireMeButton = ({ className = '' }) => (
 
 const NavbarMenu = () => {
   return [
-    { id: 1, title: 'AboutMe ', link: '#aboutMe' },
+    { id: 1, title: 'About Me ', link: '#about Me' },
     { id: 2, title: 'Services', link: '#services' },
     { id: 3, title: 'Contact', link: '#contact' },
   ];

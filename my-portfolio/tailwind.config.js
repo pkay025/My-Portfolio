@@ -8,6 +8,8 @@ export default {
     extend: {
       container: {
         center: true,
+        colors: {
+        primary: "#1E40AF",
         padding: {
           default: "1rem",
           sm: "2rem",
@@ -16,7 +18,8 @@ export default {
           "2xl": "6rem",
         }
       }
-    },
+    }
+  },
 
   },
   plugins: [],

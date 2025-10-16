@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from "./Components/Navbar";
 import HeroSection from './Components/HeroSection';
-import AboutMe from './Components/About Me';
 import Services from './Components/Services';
+import AboutMe from './Components/About Me';
 
 const App = () => {
   return (

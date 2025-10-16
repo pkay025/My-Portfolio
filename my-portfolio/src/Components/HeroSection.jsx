@@ -3,19 +3,30 @@ import Img from "../images/developer.svg";
 
 const HeroSection = () => {
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center">
-      <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start py-10 px-10">
-        <h2 className="text-2xl md:text-3xl xl:text-4xl text-center md:text-left uppercase font-semibold px-11">
-          Hi, I am Menz
+    <section
+      id="#hero"
+      className="min-h-screen bg-gradient-to-b from-white via-slate-50 to-cyan-50 flex flex-col md:flex-row items-center justify-center px-6 md:px-16 lg:px-32 py-16"
+    >
+      <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start px-6 md:px-20 py-11">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-semibold text-cyan-900 mb-6 tracking-wide">
+          Hi, I'm <span className="text-cyan-900">Menz</span>
         </h2>
-        <p className="mt-4 text-lg md:text-xl xl:text-2xl text-center md:text-left leading-normal px-11">
-          A Junior Software Developer 
+        <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
+          A Junior Software Developer with a passion for creating elegant and efficient web solutions.
         </p>
+        <a
+          href="#aboutMe"
+          className="bg-gradient-to-r from-cyan-900 to-cyan-500 text-white px-8 py-3 rounded-full shadow-md font-medium hover:opacity-90 transition"
+        >
+          Learn More
+        </a>
       </div>
-      <div className="w-70 h-70 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[600px] lg:h-[500px] overflow-hidden rounded-[70%]">
-        <img src={Img} alt="Developer Illustration" className="w-full max-w-xs md:max-w-md lg:max-w-lg" />
+      <div className="w-full md:w-2/3 flex justify-center items-center">
+        <div className="bg-white/60 backdrop-blur-md shadow-2xl rounded-2xl p-8 transition-all duration-500 hover:scale-[1.02]">
+          <img src={Img} alt="Developer Illustration" className="w-full h-auto" />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
