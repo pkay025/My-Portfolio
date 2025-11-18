@@ -2,14 +2,14 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const HireMeButton = ({ className = '' }) => (
-  <button className={`w-full text-md font-extralight bg-cyan-900 hover:bg-cyan-800 text-white shadow-sm rounded-md px-5 py-2.5 duration-300 ${className}`}>
+  <a href="#contact" className={`bg-gradient-to-r from-cyan-900 to-cyan-500 text-white px-8 py-3 rounded-full shadow-md font-medium hover:opacity-90 transition focus:outline-none focus:ring-2 focus:ring-cyan-300 text-center ${className}`}>
     Hire Me
-  </button>
+  </a>
 );
 
 const NavbarMenu = () => {
   return [
-    { id: 1, title: 'About Me ', link: '#about Me' },
+    { id: 1, title: 'About Me ', link: '#about' },
     { id: 2, title: 'Services', link: '#services' },
     { id: 3, title: 'Contact', link: '#contact' },
   ];
@@ -23,8 +23,8 @@ const Navbar = () => {
     <div className="w-full">
       <nav>
         <div className="container flex justify-between items-center py-4 relative">
-          <div className="text-xl sm:text-2xl font-extralight flex items-center gap-2 py-4">
-            <a className="w-8 h-8 sm:h-10 sm:w-10 flex items-center justify-center rounded-full border-2 sm:border-3 border-cyan-900 text-cyan-900">
+          <div className="text-xl sm:text-2xl font-medium text-gray-700 flex items-center gap-2 py-4">
+            <a href="#hero" className="w-8 h-8 sm:h-10 sm:w-10 flex items-center justify-center rounded-full border-2 sm:border-3 border-cyan-900 text-cyan-900">
               M
             </a>
             <span>
@@ -33,21 +33,22 @@ const Navbar = () => {
               </span>
             </span>
           </div>
-          {/* Desktop Menu */}
+          
           <div className="hidden md:block">
             <ul className="font-extralight text-2xl m-0 flex items-center gap-6 cursor-pointer">
               {NavbarMenu().map((item) => (
                 <li key={item.id}>
-                  <a href={item.link} className="inline-block font-extralight py-1 px-4 hover:text-cyan-900">{item.title}</a>
+                  <a href={item.link} className="inline-block font-medium text-gray-700 py-1 px-4 hover:text-cyan-900">{item.title}</a>
                 </li>
               ))}
             </ul>
           </div>
-          {/* Hamburger Button for Mobile */}
+
           <div className="md:hidden flex items-center">
             <button
               className="p-2 rounded-md text-cyan-900 focus:outline-none"
               onClick={toggleMenu}
+              type="button"
               aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
             >
               {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
