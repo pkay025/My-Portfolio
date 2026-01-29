@@ -3,14 +3,14 @@ import { Code2, Palette, Rocket, Shield, ArrowRight } from 'lucide-react'
 const services = [
   {
     id: 1,
-    title: 'Frontend Development',
-    description: 'Responsive, accessible UI with React + Tailwind for clean, fast interfaces.',
+    title: 'Frontend Development and Graphic Design',
+    description: 'Responsive, accessible UI with React + Tailwind + Figma for clean, fast interfaces and modern design.',
     Icon: Palette,
   },
   {
     id: 2,
-    title: 'Backend APIs',
-    description: 'Node.js REST APIs with robust structure, validation, and error handling.',
+    title: 'Backend APIs and Database Development',
+    description: 'Node.js REST APIs with robust structure, validation, and error handling and MongoDB for database.',
     Icon: Code2,
   },
   {

@@ -1,53 +1,53 @@
 # Nunoo's Portfolio
 
-A small React portfolio built with Vite and Tailwind CSS. Component-driven, responsive, and designed for quick iteration.
+## About Me
 
-## Quick start
+Hi, I'm **Nunoo Mensah**, a junior software developer focused on building fast, accessible, and maintainable web apps. I enjoy turning ideas into clean UI and dependable backend APIs, with a strong eye for detail and user experience.
 
-1. Open the project folder: [my-portfolio/package.json](my-portfolio/package.json)
+> "I will help you make a design with creativity"
 
+## Tech Stack & Skills
+
+- **Languages:** JavaScript
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, REST APIs
+- **Tools:** Git
+
+## Experience
+
+- **1+ Years** of Experience
+- **10+** Projects Completed
+
+## Connect With Me
+
+- [Instagram](https://instagram.com/menzzz33)
+- [YouTube](https://youtube.com/@EmmanuelNunooMensah)
+- [GitHub](https://github.com/pkay025)
+
+## Getting Started
+
+This project is built with React and Vite.
+
+### Installation
+
+1. Clone the repository
 2. Install dependencies:
-```sh
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-3. Start dev server:
-```sh
+### Development
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-4. Build for production:
-```sh
+### Build
+
+Build for production:
+
+```bash
 npm run build
 ```
-
-## Project structure (important files)
-- Entry
-  - [my-portfolio/src/main.jsx](my-portfolio/src/main.jsx)
-  - [my-portfolio/index.html](my-portfolio/index.html)
-  - [my-portfolio/src/index.css](my-portfolio/src/index.css)
-- App
-  - [`App`](my-portfolio/src/App.jsx) — [my-portfolio/src/App.jsx](my-portfolio/src/App.jsx)
-- Components
-  - [`Navbar`](my-portfolio/src/Components/Navbar.jsx) — [my-portfolio/src/Components/Navbar.jsx](my-portfolio/src/Components/Navbar.jsx)
-  - [`HeroSection`](my-portfolio/src/Components/HeroSection.jsx) — [my-portfolio/src/Components/HeroSection.jsx](my-portfolio/src/Components/HeroSection.jsx)
-  - [`AboutMe`](my-portfolio/src/Components/About Me.jsx) — [my-portfolio/src/Components/About Me.jsx](my-portfolio/src/Components/About Me.jsx)
-  - [`Services`](my-portfolio/src/Components/Services.jsx) — [my-portfolio/src/Components/Services.jsx](my-portfolio/src/Components/Services.jsx)
-  - [`Contact`](my-portfolio/src/Components/Contact.jsx) — [my-portfolio/src/Components/Contact.jsx](my-portfolio/src/Components/Contact.jsx)
-- Config
-  - [my-portfolio/vite.config.js](my-portfolio/vite.config.js)
-  - [my-portfolio/tailwind.config.js](my-portfolio/tailwind.config.js)
-  - [my-portfolio/postcss.config.js](my-portfolio/postcss.config.js)
-  - [my-portfolio/eslint.config.js](my-portfolio/eslint.config.js)
-
-## Notes
-- Components are referenced and composed in [`App`](my-portfolio/src/App.jsx).
-- Update contact email in [`Contact`](my-portfolio/src/Components/Contact.jsx) if needed.
-- To preview a production build locally:
-```sh
-npm run build
-npm run preview
-```
-
-## Deployment
-Build with `npm run build` and serve the `dist` output on any static host or platform (Netlify, Vercel, GitHub Pages, etc.).
