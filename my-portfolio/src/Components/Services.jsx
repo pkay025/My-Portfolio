@@ -1,4 +1,3 @@
-import React from 'react'
 import { Code2, Palette, Rocket, Shield, ArrowRight } from 'lucide-react'
 
 const services = [
